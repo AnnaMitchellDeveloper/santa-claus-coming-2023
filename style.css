@@ -1,0 +1,39 @@
+body {
+  font-family: "Dancing Script", cursive;
+  background-image: url(images/santac.jpg);
+  background-color: #482b05;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  background-color: rgba(251, 248, 249, 0.9);
+  border-radius: 15px;
+  padding: 15px;
+}
+h3,
+h4 {
+  font-size: 35px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.christmas {
+	background-color: rgba(251, 248, 249, 0.82); 
+	width: 200px;
+	height: 250px;
+	border-radius: 15px;
+	margin-top: 150px;
+}
+.block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
