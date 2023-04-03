@@ -16,6 +16,10 @@ h3,
 h4 {
   font-size: 35px;
 }
+button {
+	margin-left: 90px;
+	border-radius: 10px;
+}
 .heading {
   display: flex;
   justify-content: center;
@@ -36,4 +40,18 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.red {
+	font-size: 60px;
+	color: red;
+}
+@media all and (max-width:800px) {
+	h1 {
+		font-size: 40px;
+	}
+}
+@media all and (max-width:500px) {
+	h1 {
+		font-size: 30px;
+	}
 }

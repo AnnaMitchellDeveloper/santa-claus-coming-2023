@@ -23,6 +23,18 @@ function christmasCountdown() {
 		document.querySelector(".minutes").textContent = 0;
 		document.querySelector(".seconds").textContent = 0;
 		clearInterval(timerID);
+		merryChristmas();
 	}
 }
 let timerID = setInterval(christmasCountdown, 1000);
+
+function merryChristmas() {
+	const heading = document.querySelector('h1');
+	heading.textContent = "Merry Christmas!! HO-HO-HO! 🎅";
+	heading.classList.add('red');
+
+}
+let playButtonIcon = document.querySelector('#play-button');
+playButtonIcon.addEventListener('click', function(){
+	document.querySelector("#chrismasSong").play();
+})
