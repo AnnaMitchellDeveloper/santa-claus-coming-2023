@@ -16,5 +16,13 @@ function christmasCountdown() {
    document.querySelector('.minutes').textContent = displayMinute;
 	const displaySecond = Math.floor((difference%msInMinute)/msInSecond);
 	document.querySelector('.seconds').textContent = displaySecond;
+
+	if(difference <= 0){
+		document.querySelector(".days").textContent = 0;
+		document.querySelector(".hours").textContent = 0;
+		document.querySelector(".minutes").textContent = 0;
+		document.querySelector(".seconds").textContent = 0;
+		clearInterval(timerID);
+	}
 }
-christmasCountdown(); 
+let timerID = setInterval(christmasCountdown, 1000);
