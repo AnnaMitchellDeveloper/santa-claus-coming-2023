@@ -16,9 +16,20 @@ h3,
 h4 {
   font-size: 35px;
 }
+p {
+	text-align: center;
+}
 button {
 	margin-left: 90px;
 	border-radius: 10px;
+}
+footer {
+	margin-top: 50px;
+	color: white;
+}
+footer a {
+	color: #FFBF00;
+	
 }
 .heading {
   display: flex;
